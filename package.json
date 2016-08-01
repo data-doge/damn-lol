@@ -2,7 +2,7 @@
   "name": "damn-lol",
   "version": "1.0.0",
   "description": "ur computer got somethin to tell u",
-  "bin": "./index.js",
+  "bin": "./run.sh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,6 @@
   "homepage": "https://github.com/data-doge/damn-lol#readme",
   "dependencies": {
     "node-cron": "^1.1.1",
-    "node-notifier": "^4.6.0",
-    "node-schedule": "^1.1.1"
+    "node-notifier": "^4.6.0"
   }
 }

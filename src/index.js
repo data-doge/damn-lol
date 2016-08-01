@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var notifier = require('node-notifier')
 var cron = require('node-cron')
 
