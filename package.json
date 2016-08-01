@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/data-doge/dear-future-self.git"
+    "url": "git+https://github.com/data-doge/damn-lol.git"
   },
   "author": "data-doge <eugene@enspiral.com> (http://fuckafucka.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/data-doge/dear-future-self/issues"
+    "url": "https://github.com/data-doge/damn-lol/issues"
   },
-  "homepage": "https://github.com/data-doge/dear-future-self#readme",
+  "homepage": "https://github.com/data-doge/damn-lol#readme",
   "dependencies": {
     "node-cron": "^1.1.1",
     "node-notifier": "^4.6.0",
