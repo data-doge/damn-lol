@@ -1,13 +1,21 @@
 var notifier = require('node-notifier')
-var cron = require('node-cron')
+var random = require('lodash.random')
+var moment = require('moment')
+var schedule = require('node-schedule')
 
-notify()
-cron.schedule('*/10 * * * * *', notify)
+function scheduleNotification () {
+  var nextTime = moment().add(random(10, 60), 'seconds').toDate()
 
-function notify () {
-  notifier.notify({
-    title: 'DAMN LOL',
-    message: 'DAMN LOL',
-    icon: './ikea.png'
+  schedule.scheduleJob(nextTime, function () {
+    notifier.notify({
+      title: 'DAMN LOL',
+      message: 'DAMN LOL',
+      icon: './ikea.png',
+      sound: true
+    })
+
+    scheduleNotification()
   })
 }
+
+scheduleNotification()
