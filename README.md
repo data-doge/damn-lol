@@ -15,3 +15,9 @@ npm i -g damn-lol
 ```bash
 damn-lol
 ```
+
+## killing it
+
+```bash
+pkill node
+```
