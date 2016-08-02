@@ -1,6 +1,6 @@
 {
   "name": "damn-lol",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ur computer got somethin to tell u",
   "bin": "./run.sh",
   "scripts": {
